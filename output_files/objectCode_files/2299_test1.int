@@ -1,0 +1,8 @@
+
+100	 begin_block	 test1	 _	 _	
+
+110	 call	 test1	 _	 _	
+
+120	 halt	 _	 _	 _	
+
+130	 end_block	 test1	 _	 _	

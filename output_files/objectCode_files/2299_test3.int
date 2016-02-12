@@ -1,0 +1,42 @@
+
+100	 begin_block	 exam	 _	 _	
+
+110	 begin_block	 p1	 _	 _	
+
+120	 begin_block	 p11	 _	 _	
+
+130	 begin_block	 p21	 _	 _	
+
+140	 :=	 x	 _	 e	
+
+150	 :=	 w	 _	 z	
+
+160	 par	 a	 CV	 _	
+
+170	 par	 T_1	 RET	 _	
+
+180	 call	 p21	 _	 _	
+
+190	 :=	 T_1	 _	 e	
+
+200	 retv	 e	 _	 _	
+
+210	 end_block	 p21	 _	 _	
+
+220	 end_block	 p11	 _	 _	
+
+230	 end_block	 p1	 _	 _	
+
+240	 par	 a	 CV	 _	
+
+250	 par	 b	 REF	 _	
+
+260	 par	 T_2	 RET	 _	
+
+270	 call	 p1	 _	 _	
+
+280	 :=	 T_2	 _	 a	
+
+290	 halt	 _	 _	 _	
+
+300	 end_block	 exam	 _	 _	

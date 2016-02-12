@@ -1,0 +1,38 @@
+
+100	 begin_block	 test4	 _	 _	
+
+110	 begin_block	 add	 _	 _	
+
+120	 begin_block	 f	 _	 _	
+
+130	 :=	 10	 _	 x	
+
+140	 :=	 10	 _	 y	
+
+150	 :=	 10	 _	 z	
+
+160	 end_block	 f	 _	 _	
+
+170	 par	 x	 CV	 _	
+
+180	 par	 T_1	 RET	 _	
+
+190	 call	 f	 _	 _	
+
+200	 :=	 T_1	 _	 x	
+
+210	 end_block	 add	 _	 _	
+
+220	 par	 x	 CV	 _	
+
+230	 par	 y	 REF	 _	
+
+240	 par	 T_2	 RET	 _	
+
+250	 call	 add	 _	 _	
+
+260	 :=	 T_2	 _	 x	
+
+270	 halt	 _	 _	 _	
+
+280	 end_block	 test4	 _	 _	
